@@ -11,7 +11,7 @@ Replace #int for a positive number to set k, the number of clusters.
 This would visualize the user's ratings for a restaurant. A user that likes expensive restaurants be visualized as follows:
 <p align="center">
   <img src="https://github.com/VictoryJin/Maps/blob/master/img/likes_everything.png" alt="Labeled Ratings"/>  
-  <center>*User = likes_expensive, K = 5*<center/>
+  <center><i>User = likes_expensive, K = 5<i/><center/>
 </p>
 
 The yellow region represents 5 stars, and thus shows the region where the user potentially might like, whereas the blue region represents 1 star.  
@@ -22,7 +22,7 @@ python3 recommend.py -u #username -k #int -p
 ```
 <p align="center">
   <img src="https://github.com/VictoryJin/Maps/blob/master/img/likes_everything_pred.png" alt="Prediction"/>  
-  <center>*User = likes_expensive, K = 5*<center/>
+  <center><i>User = likes_expensive, K = 5<i/><center/>
 </p>
 This shows a restaurant prediction for all restaurants near Berkeley in the Yelp academic dataset.
 
