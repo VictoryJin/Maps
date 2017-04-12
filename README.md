@@ -10,7 +10,7 @@ Replace #username with a registered user in the directory [/users](https://githu
 Replace #int for a positive number to set k, the number of clusters.  
 This would visualize the user's ratings for a restaurant. A user that likes expensive restaurants be visualized as follows:
 <p align="center">
-  <img src="https://github.com/VictoryJin/Trend_Analyzer/blob/master/Images/US%20Unemployment%20Comparison.png" alt="Unemployment in US vs. Google"/>
+  <img src="https://github.com/VictoryJin/Maps/blob/master/img/likes_everything.png" alt="Labeled Ratings"/>
   <center>*User = likes_expensive, K = 5*<center/>
 </p>
 
@@ -21,7 +21,7 @@ To do so, run
 python3 recommend.py -u #username -k #int -p
 ```
 <p align="center">
-  <img src="https://github.com/VictoryJin/Trend_Analyzer/blob/master/Images/US%20Unemployment%20Comparison.png" alt="Unemployment in US vs. Google"/>
+  <img src="https://github.com/VictoryJin/Maps/blob/master/img/likes_everything_pred.png" alt="Prediction"/>
   <center>*User = likes_expensive, K = 5*<center/>
 </p>
 This shows a restaurant prediction for all restaurants near Berkeley in the Yelp academic dataset.
