@@ -8,7 +8,7 @@ python3 recommend.py -u #username -k #int
 ```
 Replace #username with a registered user in the directory [/users](https://github.com/VictoryJin/Maps/tree/master/users).  
 Replace #int for a positive number to set k, the number of clusters.  
-This would visualize the user's ratings for a restaurant. A user that likes expensive restaurants be visualized as follows:
+This would visualize the user's ratings for a restaurant. A user that likes every food type is visualized as follows:
 <p align="center">
   <img src="https://github.com/VictoryJin/Maps/blob/master/img/likes_everything.png" alt="Labeled Ratings"/>  
 </p>
@@ -25,6 +25,9 @@ which would produce the below image:
 </p>  
 
 This shows a restaurant prediction for all restaurants near Berkeley in the Yelp academic dataset.
+
+#### Inputting Data
+
 
 #### Contributions
 
