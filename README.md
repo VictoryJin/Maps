@@ -27,7 +27,16 @@ which would produce the below image:
 This shows a restaurant prediction for all restaurants near Berkeley in the Yelp academic dataset.
 
 #### Inputting Data
-
+Copy a file from the [/users](https://github.com/VictoryJin/Maps/tree/master/users) folder, and copy a user.  Rename the user and input restaurants in the following format, with the ratings:  
+```
+make_review('Jasmine Thai', 4.0) #restaurant, rating
+make_review('Top Dog 2', 4.5)
+...
+```
+To get the list of restaurants in the Yelp academic dataset, 
+```
+python3 recommend.py -r
+```
 
 #### Contributions
 
